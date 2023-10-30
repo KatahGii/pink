@@ -1,0 +1,48 @@
+<HP><H1>PINK</H1></HP>
+<H2>NAME</H2>
+<b>pink</b> - a tool for displaying custom formatted info pages in the terminal
+
+<H2>SYNOPSIS</H2>
+<b>pink</b> <u>FILE</u>
+
+<H2>CONFIGURATION</H2>
+The <b>pink</b> tool does not use any external configuration files. All configurations are done through command line arguments.
+
+<H2>DESCRIPTION</H2>
+<b>pink</b> is a terminal tool inspired by the Unix <b>man</b> command. It displays custom formatted text pages using a subset of HTML-like tags, referred to as "pink tags". These tags allow users to apply styles such as bold, italic, underline, and color to the text.
+
+<H2>OPTIONS</H2>
+Currently, <b>pink</b> does not support any command line options other than the file name.
+
+<H2>FILES</H2>
+<b>pink</b> reads .pink files which contain the formatted text to be displayed.
+
+<H2>VERSIONS</H2>
+This is the <b>beta</b> <i>2023.10.29</i> version of <b>pink</b>.
+
+<H2>NOTES</H2>
+The <b>pink</b> tool is a simple program and does not have the advanced features found in the Unix <b>man</b> command.
+
+<H2>BUGS</H2>
+There are no known bugs.
+
+<H2>EXAMPLE</H2>
+<b>pink example</b>
+
+<pink>Displays the content of example.pink</pink>
+
+<H2>AUTHORS</H2>
+<b>pink</b> was written by KatahGii.
+
+<H2>TAG USAGE</H2>
+<b>pink</b> utilizes a subset of HTML-like tags, referred to as "pink tags", to apply styles to the text. Here is a brief overview:
+
+<pink><b>...</b></pink>: <b>Makes the enclosed text bold.</b>
+<pink><i>...</i></pink>: <i>Makes the enclosed text italic.</i>
+<pink><u>...</u></pink>: <u>Underlines the enclosed text.</u>
+<pink><HP><HP>...</HP></pink>: <HP>Changes the text color to pink.</HP>
+<pink><pink>...</pink></pink>: Treats everything inside as plain text.
+<pink><H1>...</H1></pink>: <H1>Applies heading level 1 style.</H1>
+<pink><H2>...</H2></pink>: <H2>Applies heading level 2 style.</H2>
+<pink><H3>...</H3></pink>: <H3>Applies heading level 3 style.</H3>
+
