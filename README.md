@@ -2,6 +2,11 @@
 
 `pink` is a command-line tool inspired by the Unix `man` command. It displays custom-formatted text pages in the terminal using a subset of HTML-like tags.
 
+## Current Working Tested OS's ⚙️
+
+- **macOS** Ventura 13.6
+- **FreeBSD** 13.2
+
 ## Features 🎨
 
 - **Custom Formatting**: Apply styles such as bold, italic, underline, and color to text.
