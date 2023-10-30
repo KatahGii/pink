@@ -65,4 +65,4 @@ Contributions are welcome! Feel free to open an issue or submit a pull request.
 
 ## License 📜
 
-This project is licensed under the GPLv3 License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the BSD 3-Clause License - see the [LICENSE](LICENSE) file for details.
